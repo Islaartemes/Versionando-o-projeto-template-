@@ -133,9 +133,9 @@ const ListarTarefa = () => {
             </Table>
             </TableContainer>
         </CardContent>
-        <CardActions>
-            <Button size="small" variant="contained" onClick={handleOpen}>Criar Tarefa</Button>
-            <Button size="small" variant="outlined">Cancelar</Button>
+        <CardActions style={{ justifyContent: 'flex-end' }}>
+            <Button variant="contained" onClick={handleOpen}>Criar Tarefa</Button>
+            <Button variant="outlined">Cancelar</Button>
       </CardActions> 
     </Card>
     <div>
